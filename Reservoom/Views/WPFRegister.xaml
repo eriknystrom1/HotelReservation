@@ -1,0 +1,44 @@
+﻿<Window x:Class="HotelReservation.Views.WPFRegister"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelReservation.Views"
+        mc:Ignorable="d"
+    Title="Register new account" Height="550" Width="400" FontSize="14" Background="#04c582">
+
+    <Border Background="Black" CornerRadius="20" Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Register" Foreground="White" 
+               FontSize="25" HorizontalAlignment="Center"/>
+            <Separator></Separator>
+            <Label Content="Username" Foreground="White"/>
+            <TextBox x:Name="txtUsername" Background="#545d6a"
+                     Foreground="White" FontSize="18"/>
+
+            <Label Content="Password" Foreground="White"/>
+            <PasswordBox x:Name="txtPassword" Background="#545d6a"
+                     Foreground="White" FontSize="18"/>
+
+            <Label Content="Confirm Password" Foreground="White"/>
+            <PasswordBox x:Name="confirmPassword" Background="#545d6a"
+                     Foreground="White" FontSize="18"/>
+
+            <Label Content="Name" Foreground="White"/>
+            <PasswordBox x:Name="txtName" Background="#545d6a"
+                     Foreground="White" FontSize="18"/>
+
+            <Label Content="Adress" Foreground="White"/>
+            <PasswordBox x:Name="confirmAddress" Background="#545d6a"
+                     Foreground="White" FontSize="18"/>
+
+            <Label Content="Email" Foreground="White"/>
+            <PasswordBox x:Name="txtEmail" Background="#545d6a"
+                     Foreground="White" FontSize="18"/>
+
+            <Button x:Name="btnSubmit" Content="Submit" Margin="60 10" Background="#545d6a"
+                     Foreground="White" FontSize="18"/>
+
+        </StackPanel>
+    </Border>
+</Window>
